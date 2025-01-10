@@ -30,9 +30,9 @@ public class GameManager : MonoBehaviour
         Debug.Log("orbe");
     }
 
-    public void CoinCollected()
+    public void CoinCollected(int i)
     {
-        Coins++;
+        Coins+= i;
         CoinText.text = Coins.ToString();
         Debug.Log("coin");
     }

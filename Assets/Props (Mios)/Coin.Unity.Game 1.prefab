@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 276311214103257272}
   - component: {fileID: 2231762896507909160}
   - component: {fileID: 254390822494398194}
+  - component: {fileID: 1781415037673344254}
   m_Layer: 0
   m_Name: Coin.Unity.Game 1
   m_TagString: Untagged
@@ -171,3 +172,16 @@ MonoBehaviour:
   scaleTime: 2
   rotateAmount: 2
   scaleAmount: 0.005
+--- !u!114 &1781415037673344254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3259270158037396348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b3dea0a7436b4998bffadba805c89a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ID: 0
