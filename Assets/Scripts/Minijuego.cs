@@ -20,6 +20,7 @@ public class Minijuego : MonoBehaviour
         {
             VCamDisable.gameObject.SetActive(false);
             VCamEnable.gameObject.SetActive(true);
+            VCamEnable.enabled = true;
             Camera.main.GetComponent<CinemachineBrain>().enabled = true;
             Camera.main.cullingMask &= ~(1 << 8);
             _PlayerMover = other.GetComponent<PlayerMover>();

@@ -184,4 +184,9 @@ public class PlayerMover : MonoBehaviour
     {
         Gizmos.color = Color.yellow;
     }
+
+    public void EXITPerro()
+    {
+        canMove = true;
+    }
 }
